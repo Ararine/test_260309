@@ -1,6 +1,6 @@
 "# test_260309"
 
-# 원격 저장소 코드 설명
+# 원격 저장소(git) 코드 설명
 
 git init : 저장소가 없으면 생성 있으면 초기화
 
@@ -27,4 +27,17 @@ git commit -m '커밋내용' : 임시 저장소의 내용을 버전관리 시작
 
 # 원격 저장소에 동기화
 git push : 로컬 저장소의 내용을 원격 저장소로 반영
+```
+
+# frontend 명령어
+
+```bash
+# frontend 라는 이름으로 프론트앤드 프로젝트 생성
+npx create-react-app frontend
+
+# frontend 폴더로 이동
+cd frontend
+
+# frontend 실행
+npm run start
 ```
